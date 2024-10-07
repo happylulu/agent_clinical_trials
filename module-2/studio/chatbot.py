@@ -2,7 +2,8 @@ from langchain_core.messages import HumanMessage, SystemMessage, RemoveMessage
 from langgraph.graph import MessagesState
 from langgraph.graph import StateGraph, START, END
 
-# We will use this model for both the conversation and the summarization
+# We will use this model for both t
+he conversation and the summarization
 from langchain_openai import ChatOpenAI
 model = ChatOpenAI(model="gpt-4o", temperature=0) 
 
